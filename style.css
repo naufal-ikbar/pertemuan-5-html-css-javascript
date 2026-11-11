@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+  align-items: center;
 }
 
 h1 {
@@ -22,33 +22,33 @@ h1 {
 
 h2 {
   font-weight: normal;
-  color: #DBEAFE;
+  color: #dbeafe;
   font-size: 14px;
   margin-block: 10px;
 }
 
 .subtitle {
   font-size: 28px;
-  color: #1E3A5F;
+  color: #1e3a5f;
 }
 
 header {
   text-align: center;
   background-color: #1e3a5f;
   padding: 30px;
+  width: 100%;
 }
 
-nav ul{
+nav ul {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: whitesmoke;
 }
-
 
 main {
   max-width: 1200px;
@@ -70,6 +70,15 @@ main {
   border-radius: 8px;
 }
 
+button {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #1e3a5f;
+  background-color: #cbd5e1;
+  font-size: 16px;
+  /* max-width: 200px; */
+}
+
 footer {
   font-size: 12px;
   font-weight: bold;
@@ -77,5 +86,5 @@ footer {
   color: whitesmoke;
   text-align: center;
   padding: 20px;
-
+  width: 100%;
 }
